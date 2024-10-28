@@ -1,6 +1,6 @@
 # Modeling Credit Risk with data and AI in the agriculture finance sector.
 
-## What does this project repositories include?
+### What does this project repositories include?
 * The slides for this project
 * A visualization folder that stores the Power BI dashboards created
 * Readme file that briefly describes the project (what you are reading now!)
