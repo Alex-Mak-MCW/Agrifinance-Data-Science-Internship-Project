@@ -22,14 +22,14 @@
 * This project aimed to model and reduce AFSc's exposed credit risk by developing predictive machine learning models exclusively tailored for the agri-finance sector.
 
 ## Project Objectives:
-1. **Identify key factors of causing loan defaults.**
-2. **Predict which loans are likely to default in the future.**
-3. **Improve anomaly detection by exploring machine learning methods.** 
-4. **Communicate actionable insights extracted with Power BI dashboards.**
+1. Identify key factors of causing loan defaults
+2. Predict which loans are likely to default in the future
+3. Improve anomaly detection by exploring machine learning methods
+4. Communicate actionable insights extracted with Power BI dashboards
 
 ## Project Steps:
 1. **Data Collection**
-     * Gathered data from internal and external data sources with SAS and SQL
+     * Formulated datasets from internal loans and external macroeconomic factors using SAS and SQL.
 2. **Data Preprocessing**
      * Cleaned, imputed, and transformed data for future analytical and prediction purposses.
      * Adopted an unsupervised learning approach by using clustering techniques to impute some missing data.
@@ -39,7 +39,7 @@
      * Created new features from existing data to further improve the performances of machine learning models built later.
 5. **Building Machine Learning Models**
      * Developed AI-empowered predictive models to forecast the default outcomes for agricuture loans.
-     * Models:
+     * Machine Learning Models:
          * Decision trees
          * Random forests
          * Extreme gradient boosting trees (XGBoost)
@@ -58,6 +58,14 @@
 3. **Improved anomaly (default loans) detection by 6.5%** with data resampling techniques.
 4. Produced interpretable and credible AI solutions with **explainable AI (XAI)** methods.
 5. Summarized & reported project findings in **Power BI dashboards**.
+
+|                          | Decision Tree | Random Forest | Extreme Gradient Boosting Trees (XGBoost) | Extreme Gradient Boosting Random Forest (XGBRF) |
+|--------------------------|---------------|---------------|-------------------------------------------|--------------------------------------------------|
+| **Training Accuracy**    | 98.16%        | 97.99%        | 97.49%                                    | 95.65%                                           |
+| **Validation Accuracy**  | 97.43%        | 97.53%        | 97.37%                                    | 95.68%                                           |
+| **Testing Accuracy**     | 97.40%        | 97.49%        | 97.33%                                    | 95.60%                                           |
+| **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             |
+
 
 ## Business Implications:
 * By applying the following assumpetions:
