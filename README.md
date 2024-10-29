@@ -1,4 +1,4 @@
-# Modeling Credit Risk with data and AI in the agriculture finance sector.
+# Modeling Agri-finance Credit Risk with Data & AI Project 
 
 ## Table of Contents
 - [Project Overview](#project-overview)
