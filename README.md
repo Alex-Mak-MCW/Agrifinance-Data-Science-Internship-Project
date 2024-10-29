@@ -1,4 +1,4 @@
-# Modeling Agri-finance Credit Risk with Data & AI Project 
+# Modeling Agri-finance Credit Risk with Data & Machine Learning
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -18,8 +18,9 @@
 * The slides in this repository includes my part of the project, where I used data to develop predictive models to model credit risk in AFSC.
 
 ## Project Problem:
-* Agricultural finance (agri-finance) deals with unique challenges like weather dependency, seasonal income, and other agricultural factors, which traditional finance models struggle to address. 
-* This project aimed to model and reduce AFSc's exposed credit risk by developing predictive machine learning models exclusively tailored for the agri-finance sector.
+* Agricultural finance (agri-finance) deals with unique challenges like weather dependency, seasonal income, and other agricultural factors, which traditional finance models struggle to address.
+* This project demonstrates an end-to-end data-driven credit risk modeling process using Python, SAS, SQL, and Power BI.
+* It aimed to model and reduce exposed credit risk for an agri-finance corporation by developing tailored predictive machine learning models, but this concept can also be applied to other companies from other industries as well!
 
 ## Project Objectives:
 1. Identify key factors of causing loan defaults
@@ -64,10 +65,21 @@
 | **Training Accuracy**    | 98.16%        | 97.99%        | 97.49%                                    | 95.65%                                           | 97.34%         |
 | **Validation Accuracy**  | 97.43%        | 97.53%        | 97.37%                                    | 95.68%                                           | 97.32%         |
 | **Testing Accuracy**     | 97.40%        | 97.49%        | 97.33%                                    | 95.60%                                           | 97.28%         |
-| **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             | 0.91           |
+| **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             | 0.90           |
 
-
-
+## Power BI Dashboards
+* [Snapshot 1]
+A Power BI dashboard is created with the intentation to be viewed for the agri-finance coporation internally. It focuses on highlighting:
+    * The underlying business intellgence insights about the default loan based on other important factors.
+    * The predictive performances and insights extracted from the products built in this project.
+    * The potential impact of default loan towards the corporation itself, especially during COVID-19.
+* [Snapshot 2]
+Another Power BI dashboard is created with the purpose of externally sharing insights to the agri-finance corporation's customers, by providing:
+    * Data-empowered insights from this project that the clients are most interested about.
+    * Common factors of causing default loans so the clients be aware of.
+    * Tips for clients to avoid having their loans to become default.
+    * Promises on proper data usage to advaocate data sharing and gain cleints' digital trust.
+ 
 ## Business Implications:
 * By applying the following assumpetions:
    * The optimized models can retain their predcitive accuracy in forecasting the default outcomes of new loans.
