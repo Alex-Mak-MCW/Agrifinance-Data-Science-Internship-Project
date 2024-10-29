@@ -8,6 +8,7 @@
 ## Project Overview:
 * This project was developed during my data science internship at Agriculture Finance Services Corporation (AFSC) in summer 2024.
 * I was also a project manager and led a team of 4 interns (Seth Graham, Kiana Mailloux, Lesley Brausse, and myself) for a project (which isthis project!) that investigates the impact of data can bring to the company.
+* This project specifically aims to model AFSC's credit risk by forecasting the default outcomes for agriculture loans to perform risk assessment and modeling. 
 
 ## Project Problem:
 * Agricultural finance (agri-finance) deals with unique challenges like weather dependency, seasonal income, and other agricultural factors, which traditional finance models struggle to address. 
