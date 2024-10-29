@@ -55,10 +55,15 @@
 
 ## Key Results
 1. **Identified four critical factors influencing loan defaults** (accrued interest, arrear interest, total amount due, proportion of remaining payment)
-2. **Achieving a 97.5% accuracy in predicting loan defaults** 
-3. **Improved anomaly (default loans) detection by 6.5%** with data resampling techniques.
-4. Produced interpretable and credible AI solutions with **explainable AI (XAI)** methods.
-5. Summarized & reported project findings in **Power BI dashboards**.
+     * Finding them help both agri-finance corporations and their clients to be more aware about their impact, thus better preventing loans from resulting in default.
+3. **Achieving a 97.5% accuracy in predicting loan defaults**
+     * The models I build can predit 975 out of 1000 loans' default outcome correctly, allow agri-finance corporations to assess their own credit risk.
+5. **Improved default loan detection by 6.5%** with data resampling techniques.
+     * Enahcned anaomaly detection allow agri-finance corporations to prevent them from happening in the future, avoid potential financial losses. 
+7. Produced interpretable and credible AI solutions with **explainable AI (XAI)** methods.
+     * Promote digital trust and recognition of data-driven decisions for both agri-finance coprorations and their clients.
+9. Summarized & reported project findings in **Power BI dashboards**.
+     * Transform numerical findings into actionable insights and communciate them in an aesthetic manner. 
 
 |                          | Decision Tree | Random Forest | Extreme Gradient Boosting Trees (XGBoost) | Extreme Gradient Boosting Random Forest (XGBRF) | Neural Network |
 |--------------------------|---------------|---------------|-------------------------------------------|--------------------------------------------------|----------------|
@@ -86,7 +91,7 @@ Another Power BI dashboard is created with the purpose of externally sharing ins
    * Only 10% of predicted default loans can realistically be prevented from defaulting with our model.
 * If the project built models are applied to forecast all loans for AFSC in the fiscal year of 2023, then:
     * 4.4% of credit risk exposed are reduced.
-    * translating to $12 million in potential financial loss savings.
+    * Translating to $12 million in potential financial loss savings.
  
 ## Acknowledgements:
 * My teammates for this project: Seth Graham, Kiana Mailloux, and Lesley Brausse 
