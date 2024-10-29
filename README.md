@@ -73,13 +73,13 @@
 | **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             | 0.90           |
 
 ## Power BI Dashboards
-* [Snapshot 1]
-A Power BI dashboard is created with the intentation to be viewed for the agri-finance coporation internally. It focuses on highlighting:
+![DB 1](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.jpg)
+* A Power BI dashboard is created with the intentation to be viewed for the agri-finance coporation internally. It focuses on highlighting:
     * The underlying business intellgence insights about the default loan based on other important factors.
     * The predictive performances and insights extracted from the products built in this project.
     * The potential impact of default loan towards the corporation itself, especially during COVID-19.
-* [Snapshot 2]
-Another Power BI dashboard is created with the purpose of externally sharing insights to the agri-finance corporation's customers, by providing:
+[DB 2](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.png)
+* Another Power BI dashboard is created with the purpose of externally sharing insights to the agri-finance corporation's customers, by providing:
     * Data-empowered insights from this project that the clients are most interested about.
     * Common factors of causing default loans so the clients be aware of.
     * Tips for clients to avoid having their loans to become default.
