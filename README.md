@@ -14,9 +14,9 @@
     - [Inquiries](#inquiries)
 
 ## Repository Structure
-* Power BI Visualziations (Power BI dashboards)
-* Project_Presentation.pdf (Project presentation slides)
-* Readme File (what you are reading here!)
+* **Power BI Visualizations**: Dashboards created for the project.
+* **Project Presentation**: Slides summarizing the project.
+* **Readme File**: Overview of the project.
 <br></br>
 <br></br>
 
@@ -40,7 +40,8 @@
 
 ## Project Steps:
 1. **Data Collection**
-     * Formulated datasets from internal loans and external macroeconomic factors using SAS and SQL.
+     * Formulated datasets from internal loans and external macroeconomic factors using SAS and SQL. 
+
 2. **Data Preprocessing**
      * Cleaned, imputed, and transformed data for future analytical and prediction purposses.
      * Adopted an unsupervised learning approach by using clustering techniques to impute some missing data.
@@ -67,10 +68,11 @@
 ## Key Results
 1. **Identified four critical factors influencing loan defaults** (accrued interest, arrear interest, total amount due, proportion of remaining payment)
      * Finding them help both agri-finance corporations and their clients to be more aware about their impact, thus better preventing loans from resulting in default.
+
 3. **Achieving a 97.5% accuracy in predicting loan defaults**
      * The models I build can predit 975 out of 1000 loans' default outcome correctly, allow agri-finance corporations to assess their own credit risk.
 5. **Improved default loan detection by 6.5%** with data resampling techniques.
-     * Enahcned anaomaly detection allow agri-finance corporations to prevent them from happening in the future, avoid potential financial losses. 
+     * Enhanced anaomaly detection allow agri-finance corporations to prevent them from happening, avoid potential financial losses. 
 7. Produced interpretable and credible AI solutions with **explainable AI (XAI)** methods.
      * Promote digital trust and recognition of data-driven decisions for both agri-finance coprorations and their clients.
 9. Summarized & reported project findings in **Power BI dashboards**.
@@ -98,6 +100,7 @@
 ![DB 2](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.png)
 * Another Power BI dashboard is created with the purpose of externally sharing insights to the agri-finance corporation's customers, by providing:
     * Data-empowered insights from this project that the clients are most interested about.
+
     * Common factors of causing default loans so the clients be aware of.
     * Tips for clients to avoid having their loans to become default.
     * Promises on proper data usage to advaocate data sharing and gain cleints' digital trust.
@@ -106,9 +109,11 @@
 ## Business Implications:
 * By applying the following assumpetions:
    * The optimized models can retain their predcitive accuracy in forecasting the default outcomes of new loans.
+
    * Only 10% of predicted default loans can realistically be prevented from defaulting with our model.
 * If the project built models are applied to forecast all loans for AFSC in the fiscal year of 2023, then:
     * 4.4% of credit risk exposed are reduced.
+
     * Translating to $12 million in potential financial loss savings.
 <br></br>
 
@@ -116,6 +121,7 @@
 ### Acknowledgements:
 * My teammates for this project: Seth Graham, Kiana Mailloux, and Lesley Brausse 
     * Thanks for going crazy with me! This project does not go far without you all!
+
 * My project sponsor: Jesse Cole
     * Thanks you so much for your guidance and feedback on this project!
 * My supervisor: Saroj Aryal
@@ -134,7 +140,8 @@
 <br></br>
 ### Inquiries:
 * if you want to...
-     * Know more about my project
+     * Know more about my project.
+
      * Read my academic capstone project report that investigated the application of data-driven decision-making in agri-finance. 
      * Collaborate with me for something promising :)
      * Have a simple coffee chat with me
