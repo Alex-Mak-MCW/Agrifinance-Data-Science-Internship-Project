@@ -11,29 +11,27 @@
 - [Software Stacks Used](#software-stacks-used)
 - [Acknowledgements](#acknowledgements)
 - [Inquiries](#inquiries)
-- [What does this project repository include?](#what-does-this-project-repository-include)
 
 ## Repository Structure
 * Power BI Visualziations (Power BI dashboards)
 * Project_Presentation.pdf (Project presentation slides)
 * Readme File (what you are reading here!)
-
-
+<br></br>
 ## Project Overview:
 * This project was developed during my data science internship at Agriculture Finance Services Corporation (AFSC) in summer 2024. I was also a project manager and led a team of 4 interns (Seth Graham, Kiana Mailloux, Lesley Brausse, and myself) for a project that investigates the impact of data can bring to the company.
 * The slides in this repository includes my part of the project, where I used data to develop predictive models to model credit risk in AFSC.
-
+<br></br>
 ## Project Problem:
 * Agricultural finance (agri-finance) deals with unique challenges like weather dependency, seasonal income, and other agricultural factors, which traditional finance models struggle to address.
 * This project demonstrates an end-to-end data-driven credit risk modeling process using Python, SAS, SQL, and Power BI.
 * It aimed to model and reduce exposed credit risk for an agri-finance corporation by developing tailored predictive machine learning models, but this concept can also be applied to other companies from other industries as well!
-
+<br></br>
 ## Project Objectives:
 1. Identify key factors of causing loan defaults
 2. Predict which loans are likely to default in the future
 3. Improve anomaly detection by exploring machine learning methods
 4. Communicate actionable insights extracted with Power BI dashboards
-
+<br></br>
 ## Project Steps:
 1. **Data Collection**
      * Formulated datasets from internal loans and external macroeconomic factors using SAS and SQL.
@@ -58,7 +56,7 @@
      * Applied data resampling techniques and explainable AI (XAI) methods for model optimization and explainability.
 8. **Power BI Dashboards**
      * Created interactive Power BI dashboards to present actionable insights obtained to project stakeholders.
-
+<br></br>
 ## Key Results
 1. **Identified four critical factors influencing loan defaults** (accrued interest, arrear interest, total amount due, proportion of remaining payment)
      * Finding them help both agri-finance corporations and their clients to be more aware about their impact, thus better preventing loans from resulting in default.
@@ -70,6 +68,7 @@
      * Promote digital trust and recognition of data-driven decisions for both agri-finance coprorations and their clients.
 9. Summarized & reported project findings in **Power BI dashboards**.
      * Transform numerical findings into actionable insights and communciate them in an aesthetic manner. 
+<br>
 
 |                          | Decision Tree | Random Forest | Extreme Gradient Boosting Trees (XGBoost) | Extreme Gradient Boosting Random Forest (XGBRF) | Neural Network |
 |--------------------------|---------------|---------------|-------------------------------------------|--------------------------------------------------|----------------|
@@ -78,6 +77,7 @@
 | **Testing Accuracy**     | 97.40%        | 97.49%        | 97.33%                                    | 95.60%                                           | 97.28%         |
 | **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             | 0.90           |
 
+<br></br>
 ## Power BI Dashboards
 ![DB 1](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.jpg)
 * A Power BI dashboard is created with the intentation to be viewed for the agri-finance coporation internally. It focuses on highlighting:
@@ -85,13 +85,15 @@
     * The predictive performances and insights extracted from the products built in this project.
     * The potential impact of default loan towards the corporation itself, especially during COVID-19.
 
+<br>
+
 ![DB 2](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.png)
 * Another Power BI dashboard is created with the purpose of externally sharing insights to the agri-finance corporation's customers, by providing:
     * Data-empowered insights from this project that the clients are most interested about.
     * Common factors of causing default loans so the clients be aware of.
     * Tips for clients to avoid having their loans to become default.
     * Promises on proper data usage to advaocate data sharing and gain cleints' digital trust.
- 
+<br></br>
 ## Business Implications:
 * By applying the following assumpetions:
    * The optimized models can retain their predcitive accuracy in forecasting the default outcomes of new loans.
@@ -99,7 +101,7 @@
 * If the project built models are applied to forecast all loans for AFSC in the fiscal year of 2023, then:
     * 4.4% of credit risk exposed are reduced.
     * Translating to $12 million in potential financial loss savings.
- 
+<br></br>
 ## Acknowledgements:
 * My teammates for this project: Seth Graham, Kiana Mailloux, and Lesley Brausse 
     * Thanks for going crazy with me! This project does not go far without you all!
@@ -107,7 +109,7 @@
     * Thanks you so much for your guidance and feedback on this project!
 * My supervisor: Saroj Aryal
     * Thanks for your guidance and feedback during my internship! I applied as many things I learned from you on this project!
-
+<br></br>
 ## Software Stacks Used:
 | Category                  | Tools                                       |
 |---------------------------|---------------------------------------------|
@@ -117,7 +119,7 @@
 | **For Data Visualization**| Power BI, Matplotlib, Seaborn              |
 | **For Project Management**| Trello, Agile, Scrum                       |
 
-
+<br></br>
 ## Inquiries:
 * if you want to...
      * Know more about my project
@@ -125,4 +127,3 @@
      * Collaborate with me for something promising :)
      * Have a simple coffee chat with me
 * Then feel free to contact me through my linkedin (on my github homepage)
-
