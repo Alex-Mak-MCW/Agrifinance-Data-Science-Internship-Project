@@ -59,12 +59,13 @@
 4. Produced interpretable and credible AI solutions with **explainable AI (XAI)** methods.
 5. Summarized & reported project findings in **Power BI dashboards**.
 
-|                          | Decision Tree | Random Forest | Extreme Gradient Boosting Trees (XGBoost) | Extreme Gradient Boosting Random Forest (XGBRF) |
-|--------------------------|---------------|---------------|-------------------------------------------|--------------------------------------------------|
-| **Training Accuracy**    | 98.16%        | 97.99%        | 97.49%                                    | 95.65%                                           |
-| **Validation Accuracy**  | 97.43%        | 97.53%        | 97.37%                                    | 95.68%                                           |
-| **Testing Accuracy**     | 97.40%        | 97.49%        | 97.33%                                    | 95.60%                                           |
-| **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             |
+|                          | Decision Tree | Random Forest | Extreme Gradient Boosting Trees (XGBoost) | Extreme Gradient Boosting Random Forest (XGBRF) | Neural Network |
+|--------------------------|---------------|---------------|-------------------------------------------|--------------------------------------------------|----------------|
+| **Training Accuracy**    | 98.16%        | 97.99%        | 97.49%                                    | 95.65%                                           | 97.34%         |
+| **Validation Accuracy**  | 97.43%        | 97.53%        | 97.37%                                    | 95.68%                                           | 97.32%         |
+| **Testing Accuracy**     | 97.40%        | 97.49%        | 97.33%                                    | 95.60%                                           | 97.28%         |
+| **AUC-ROC**              | 0.81          | 0.96          | 0.92                                      | 0.78                                             | 0.91           |
+
 
 
 ## Business Implications:
@@ -88,7 +89,7 @@
 |---------------------------|---------------------------------------------|
 | **Programming Languages** | Python, SAS, SQL                           |
 | **For Data Preprocessing**| Pandas, NumPy, SciPy                       |
-| **For Machine Learning**  | Scikit-learn, xgboost, TensorFlow          |
+| **For Machine Learning**  | Scikit-learn, xgboost, TensorFlow, Keras   |
 | **For Data Visualization**| Power BI, Matplotlib, Seaborn              |
 | **For Project Management**| Trello, Agile, Scrum                       |
 
