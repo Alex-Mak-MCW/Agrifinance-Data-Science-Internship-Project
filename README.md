@@ -1,41 +1,63 @@
 # Modeling Credit Risk with data and AI in the agriculture finance sector.
 
-#### What does this project repositories include?
-* The slides for this project
-* A visualization folder that stores the Power BI dashboards created
-* Readme file that briefly describes the project (what you are reading now!)
-<br></br>
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Project Problem](#project-problem)
+- [Project Objectives](#project-objectives)
+- [Project Steps](#project-steps)
+- [Key Results](#key-results)
+- [Business Implications](#business-implications)
+- [Acknowledgements](#acknowledgements)
+- [Software Stacks Used](#software-stacks-used)
+- [Inquiries](#inquiries)
+- [What does this project repositories include?](#what-does-this-project-repositories-include)
+
+
 ## Project Overview:
-* This project was developed during my data science internship at Agriculture Finance Services Corporation (AFSC) in summer 2024.
-* I was also a project manager and led a team of 4 interns (Seth Graham, Kiana Mailloux, Lesley Brausse, and myself) for a project (which isthis project!) that investigates the impact of data can bring to the company.
-* This project specifically aims to model AFSC's credit risk by forecasting the default outcomes for agriculture loans to perform risk assessment and modeling. 
+* This project was developed during my data science internship at Agriculture Finance Services Corporation (AFSC) in summer 2024. I was also a project manager and led a team of 4 interns (Seth Graham, Kiana Mailloux, Lesley Brausse, and myself) for a project that investigates the impact of data can bring to the company.
+* The slides in this repository includes my part of the project, where I used data to develop predictive models to model credit risk in AFSC.
 
 ## Project Problem:
 * Agricultural finance (agri-finance) deals with unique challenges like weather dependency, seasonal income, and other agricultural factors, which traditional finance models struggle to address. 
-* This project aimed to improve credit risk modeling for AFSC by developing predictive machine learning models tailored for the agri-finance sector.
+* This project aimed to model and reduce AFSc's exposed credit risk by developing predictive machine learning models exclusively tailored for the agri-finance sector.
 
 ## Project Objectives:
-1. **Identify Key Factors**: Discover the main causes of loan defaults.
-2. **Forecast Loan Defaults**: Predict which loans are likely to default in the future.
-3. **Improve Predictive Accuracy**: Use data resampling techniques and explainable AI (XAI) to enhance model performance.
-4. **Visualize and Report Insights**: Create interactive Power BI dashboards to communicate actionable insights extracted from findings.
+1. **Identify key factors of causing loan defaults.**
+2. **Predict which loans are likely to default in the future.**
+3. **Improve anomaly detection by exploring machine learning methods.** 
+4. **Communicate actionable insights extracted with Power BI dashboards.**
 
 ## Project Steps:
-1. **Data Collection**: Gathered data from internal and external data sources with SAS and SQL.
-2. **Data Preprocessing**: Cleaned, imputed, and transformed data for future analytical and prediction purposses. Adopted an unsupervised learning approach by using clustering techniques to impute some missing data.
-3. **Exploratory Data Analysis (EDA)**: Analyzed data to observe any hidden key trends, patterns, and relationship in the dataset.
-4. **Feature Engineering**: Created new features from existing data to further improve the performances of machine learning models built later.
-5. **Building Machine Learning Models**: Developed AI predictive models like decision trees, random forests, extreme gradient boosting trees (XGBoost), and extreme gradient boosting random forest (XGBRF)
-6. **Model Optimization** Built semi-automated pipeline to tune the built models for best predictive performances with optimal hyperparameters.
-7. **Exploring Advanced Techniques**: Applied data resampling techniques and explainable AI (XAI) methods for model optimization and explainability.
-8. **Power BI Dashboards**: Created dashboards for both internal and external stakeholders to present actionable insights obtained.
+1. **Data Collection**
+     * Gathered data from internal and external data sources with SAS and SQL
+2. **Data Preprocessing**
+     * Cleaned, imputed, and transformed data for future analytical and prediction purposses.
+     * Adopted an unsupervised learning approach by using clustering techniques to impute some missing data.
+3. **Exploratory Data Analysis (EDA)**
+     * Analyzed data to observe any hidden key trends, patterns, and relationship in the dataset.
+4. **Feature Engineering**
+     * Created new features from existing data to further improve the performances of machine learning models built later.
+5. **Building Machine Learning Models**
+     * Developed AI-empowered predictive models to forecast the default outcomes for agricuture loans.
+     * Models:
+         * Decision trees
+         * Random forests
+         * Extreme gradient boosting trees (XGBoost)
+         * Extreme gradient boosting random forest (XGBRF)
+         * Feedforward Neural Network
+6. **Model Optimization**
+     * Built semi-automated pipeline to tune the built models for optimal predictive performances.
+7. **Exploring Advanced Machine Learning Techniques**
+     * Applied data resampling techniques and explainable AI (XAI) methods for model optimization and explainability.
+8. **Power BI Dashboards**
+     * Created interactive Power BI dashboards to present actionable insights obtained to project stakeholders.
 
 ## Key Results
-1. Identified four critical factors influencing loan defaults (accrued interest, arrear interest, total amount due, proportion of remaining payment)
-2. Achieving a 97.5% accuracy in predicting loan defaults (correctly forecast 975 loans' default outcome out of 1000!)
-3. Improved anomaly (default loans) detection by 6.5% with data resampling techniques.
-4. Produced interpretable and credible AI solutions with explainable AI methods.
-5. Communicate findings in various methods (presentations, Power BI dashboards, and an internal business research report).
+1. **Identified four critical factors influencing loan defaults** (accrued interest, arrear interest, total amount due, proportion of remaining payment)
+2. **Achieving a 97.5% accuracy in predicting loan defaults** 
+3. **Improved anomaly (default loans) detection by 6.5%** with data resampling techniques.
+4. Produced interpretable and credible AI solutions with **explainable AI (XAI)** methods.
+5. Summarized & reported project findings in **Power BI dashboards**.
 
 ## Business Implications:
 * By applying the following assumpetions:
@@ -54,11 +76,14 @@
     * Thanks for your guidance and feedback during my internship! I applied as many things I learned from you on this project!
 
 ## Software Stacks Used:
-* **Programming languages**: Python, SAS, and SQL
-* **For data preprocessing**: Pandas, NumPy, SciPy 
-* **For machine learning**: Scikit-learn, xgboost, Tensorflow
-* **For data visualization**: Power BI, Matplotlib, Seaborn
-* **For project management**: Trello
+| Category                  | Tools                                       |
+|---------------------------|---------------------------------------------|
+| **Programming Languages** | Python, SAS, SQL                           |
+| **For Data Preprocessing**| Pandas, NumPy, SciPy                       |
+| **For Machine Learning**  | Scikit-learn, xgboost, TensorFlow          |
+| **For Data Visualization**| Power BI, Matplotlib, Seaborn              |
+| **For Project Management**| Trello, Agile, Scrum                       |
+
 
 ## Inquiries:
 * if you want to...
@@ -67,3 +92,8 @@
      * Collaborate with me for something promising :)
      * Have a simple coffee chat with me
 * Then feel free to contact me through my linkedin (on my github homepage)
+
+#### What does this project repositories include?
+* The slides for this project
+* A visualization folder that stores the Power BI dashboards created
+* Readme file that briefly describes the project (what you are reading now!)
