@@ -6,11 +6,17 @@
 - [Project Objectives](#project-objectives)
 - [Project Steps](#project-steps)
 - [Key Results](#key-results)
+- [Power BI Dashboards](#power-bi-dashboards)
 - [Business Implications](#business-implications)
-- [Acknowledgements](#acknowledgements)
 - [Software Stacks Used](#software-stacks-used)
+- [Acknowledgements](#acknowledgements)
 - [Inquiries](#inquiries)
-- [What does this project repositories include?](#what-does-this-project-repositories-include)
+- [What does this project repository include?](#what-does-this-project-repository-include)
+
+## Repository Structure
+* Power BI Visualziations (Power BI dashboards)
+* Project_Presentation.pdf (Project presentation slides)
+* Readme File (what you are reading here!)
 
 
 ## Project Overview:
@@ -120,7 +126,3 @@
      * Have a simple coffee chat with me
 * Then feel free to contact me through my linkedin (on my github homepage)
 
-#### What does this project repositories include?
-* The slides for this project
-* A visualization folder that stores the Power BI dashboards created
-* Readme file that briefly describes the project (what you are reading now!)
