@@ -79,7 +79,7 @@
     * The predictive performances and insights extracted from the products built in this project.
     * The potential impact of default loan towards the corporation itself, especially during COVID-19.
 
-[DB 2](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.png)
+![DB 2](Power_BI_Visualziations/Summer_Project_Dashboard(AFSC).pptx.png)
 * Another Power BI dashboard is created with the purpose of externally sharing insights to the agri-finance corporation's customers, by providing:
     * Data-empowered insights from this project that the clients are most interested about.
     * Common factors of causing default loans so the clients be aware of.
